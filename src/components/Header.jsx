@@ -34,6 +34,9 @@ function Header() {
             <Link to="/contact">Contacto</Link>
           </li>
           <li>
+            <Link to="/contact">Empleo</Link>
+          </li>
+          <li>
             <Link className="bg-black rounded-md p-2" to="/catalog">
               Catálogo
             </Link>
