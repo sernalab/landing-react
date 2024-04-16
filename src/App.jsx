@@ -11,7 +11,6 @@ function App() {
       <main>
         <Hero />
         <Features />
-        <section>3 bloques: - Más de X productos - Envío en 48h -</section>
       </main>
     </>
   );

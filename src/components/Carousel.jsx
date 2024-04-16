@@ -14,8 +14,7 @@ function CarouselComponent() {
               <div className="flex justify-center h-full bg-gray-100 p-6">
                 <span className="self-center text-4xl transition duration-700">
                   <img
-                    src="https://www.joma-tools.com/catalogo/1546-large_default/juego-cutter-jo017.jpg
-"
+                    src="https://www.joma-tools.com/catalogo/837-large_default/lampara-cob-articulada-jolcoba.jpg"
                     alt=""
                   />
                 </span>
@@ -24,14 +23,21 @@ function CarouselComponent() {
             <div className="hs-carousel-slide">
               <div className="flex justify-center h-full bg-gray-200 p-6">
                 <span className="self-center text-4xl transition duration-700">
-                  Second slide
+                  <img
+                    src="https://www.joma-tools.com/catalogo/1546-large_default/juego-cutter-jo017.jpg
+"
+                    alt=""
+                  />
                 </span>
               </div>
             </div>
             <div className="hs-carousel-slide">
               <div className="flex justify-center h-full bg-gray-300 p-6">
                 <span className="self-center text-4xl transition duration-700">
-                  Third slide
+                  <img
+                    src="https://www.joma-tools.com/catalogo/778-large_default/inversor-de-corriente-12v-dc-a-220v-ac-joinv2500.jpg"
+                    alt=""
+                  />
                 </span>
               </div>
             </div>
