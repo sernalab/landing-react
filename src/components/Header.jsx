@@ -5,7 +5,7 @@ function Header() {
   return (
     <header className="header flex items-center">
       <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
-        <Link to="/">
+        <Link className="text-gray-600" to="/">
           <img
             className="h-9"
             src="src/assets/logo.jpg"
@@ -17,13 +17,18 @@ function Header() {
         </p>
         <ul className="flex space-x-4">
           <li>
-            <Link to="/about">Sobre Nosotros</Link>
+            <Link className="text-gray-600" to="/about">
+              Sobre Nosotros
+            </Link>
           </li>
           <li>
-            <Link to="/promotions">Promociones</Link>
+            <Link className="text-gray-600" to="/promotions">
+              Promociones
+            </Link>
           </li>
           <li>
             <Link
+              className="text-gray-600"
               target="_blank"
               to="https://www.youtube.com/@jomaimport-exports.l.4635/videos"
             >
@@ -31,13 +36,20 @@ function Header() {
             </Link>
           </li>
           <li>
-            <Link to="/contact">Contacto</Link>
+            <Link className="text-gray-600" to="/contact">
+              Contacto
+            </Link>
           </li>
           <li>
-            <Link to="/contact">Empleo</Link>
+            <Link className="text-gray-600" to="/contact">
+              Empleo
+            </Link>
           </li>
           <li>
-            <Link className="bg-black rounded-md p-2" to="/catalog">
+            <Link
+              className="bg-joma-color rounded-md p-3 text-white hover:text-white"
+              to="/catalog"
+            >
               Catálogo
             </Link>
           </li>
