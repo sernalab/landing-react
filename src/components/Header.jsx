@@ -48,7 +48,7 @@ function Header() {
           <li>
             <Link
               className="bg-joma-color rounded-md p-3 text-white hover:text-white"
-              to="/catalog"
+              to="/catalogo"
             >
               Catálogo
             </Link>
