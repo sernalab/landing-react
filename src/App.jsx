@@ -2,9 +2,7 @@ import "./App.css";
 import { Route, Routes } from "react-router-dom";
 
 import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Features from "./components/Features";
-import Products from "./components/Products";
+import Home from "./pages/HomePage";
 import Footer from "./components/Footer";
 import CatalogoPage from "./pages/CatalogoPage";
 
@@ -14,10 +12,8 @@ function App() {
       <Header />
       <main>
         <Routes>
-          <Route path="/" element={<Hero />} />
-          <Route path="/features" element={<Features />} />
-          <Route path="/products" element={<Products />} />
-          <Route path="/catalog" element={<CatalogoPage />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/catalogo" element={<CatalogoPage />} />
         </Routes>
         <Footer />
       </main>
