@@ -3,8 +3,8 @@ import { Link } from "react-router-dom"; // Asumiendo que usas React Router
 
 function Header() {
   return (
-    <header className="header flex items-center">
-      <nav className="container mx-auto px-6 py-4 flex justify-between items-center">
+    <header className="header flex items-center max-w-screen-xl mx-auto p-2 md:p-4 lg:py-8 lg:px-12 border-b-2">
+      <nav className="container mx-auto  flex justify-between items-center">
         <Link className="text-gray-600" to="/">
           <img
             className="h-9"
