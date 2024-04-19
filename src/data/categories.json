@@ -1,7 +1,7 @@
 {
   "categories": [
     {
-      "name": "Kits distribuciones",
+      "name": "kits",
       "subcategory": [
         "Kits ALFA ROMEO",
         "Kits BMW",
@@ -31,7 +31,7 @@
       ]
     },
     {
-      "name": "Mecánica",
+      "name": "mecanica",
       "subcategory": [
         "Alicates",
         "Bombas transmisión fluidos",
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "name": "Diagnosis",
+      "name": "diagnosis",
       "subcategory": [
         "Bombas presión/depresión",
         "Cableados de prueba",
@@ -74,7 +74,7 @@
       ]
     },
     {
-      "name": "Electricidad",
+      "name": "electricidad",
       "subcategory": [
         "Alicates electricidad",
         "Lámparas fluorescentes",
@@ -84,7 +84,7 @@
       ]
     },
     {
-      "name": "Chapa y pintura",
+      "name": "chapa-pintura",
       "subcategory": [
         "Herramientas chapa y pintura",
         "Herramientas tiraje",
