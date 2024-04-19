@@ -24,7 +24,7 @@ function CatalogoPage() {
         <ProductCarouselComponent />
         <div className="flex justify-between mt-10">
           <div>
-            <label for="hs-select-label" className="block  font-bold mb-2">
+            <label htmlFor="hs-select-label" className="block  font-bold mb-2">
               Categorías
             </label>
             <select
@@ -55,10 +55,21 @@ function CatalogoPage() {
           </p>
         </div>
         <div className="grid grid-cols-4 mt-10 gap-5">
-          {selectedCategory &&
+          {selectedCategory ? (
             selectedCategory.subcategory.map((subcat) => (
-              <KitCard key={subcat} name={subcat} />
-            ))}
+              <KitCard key={subcat} title={subcat} />
+            ))
+          ) : (
+            <>
+              <h3 className="col-span-4 text-center mb-4">
+                PRODUCTOS DESTACADOS
+              </h3>
+              <KitCard title="Test 1" />
+              <KitCard title="Test 2" />
+              <KitCard title="Test 3" />
+              <KitCard title="Test 4" />
+            </>
+          )}
         </div>
       </section>
     </>
