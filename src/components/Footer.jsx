@@ -57,7 +57,7 @@ function Footer() {
           <div className="flex justify-between">
             <img
               className="h-9"
-              src="src/assets/logo.jpg"
+              src="/public/logo.jpg"
               alt="Logo de la empresa"
             />
             <p>©2024 Joma Tools.</p>
