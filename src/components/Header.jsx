@@ -14,12 +14,11 @@ function Header() {
         <Link className="text-gray-600" to="/">
           <img
             className="h-9"
-            src="/public/logo.jpg"
+            src="https://www.joma-tools.com/catalogo/img/logo-1666880563.jpg.pagespeed.ce.71kNUIfzUR.jpg"
             alt="Logo de la empresa"
           />
         </Link>
 
-        {/* Phone number visible only on larger screens */}
         <div className="hidden md:flex md:flex-grow items-center justify-center">
           <p className="mx-4">
             Llámenos: <span className="font-bold">93 683 48 40</span>
@@ -27,7 +26,6 @@ function Header() {
         </div>
 
         <div className="hidden sm:flex flex-grow items-center justify-end space-x-4">
-          {/* Desktop Links */}
           <Link className="text-gray-600" to="/about">
             Sobre Nosotros
           </Link>
@@ -55,7 +53,6 @@ function Header() {
           </Link>
         </div>
 
-        {/* Mobile Menu Button */}
         <button
           onClick={toggleMenu}
           className="sm:hidden p-2 rounded-lg border border-gray-200 bg-white text-gray-800 hover:bg-gray-50"
@@ -91,7 +88,6 @@ function Header() {
           )}
         </button>
 
-        {/* Mobile Links */}
         {isOpen && (
           <div className="sm:hidden flex flex-col items-center w-full mt-4">
             <Link className="text-gray-600 py-2" to="/about">
