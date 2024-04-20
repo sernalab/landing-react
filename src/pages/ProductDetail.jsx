@@ -7,7 +7,7 @@ function ProductDetailPage() {
           <img
             src="https://www.joma-tools.com/catalogo/1546-large_default/juego-cutter-jo017.jpg"
             alt="Detalle del producto"
-            className="w-full object-cover h-auto" // Asegura que la imagen cubra completamente su celda, ajustándose al contenido
+            className="w-full object-cover h-auto"
           />
         </div>
         <div className="col-span-1">
