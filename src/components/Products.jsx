@@ -158,7 +158,7 @@ function Products() {
         <div className="mt-12 flex justify-center">
           <Link
             className="bg-joma-color rounded-full p-5 text-white hover:text-white transition-transform duration-300 transform hover:scale-110"
-            to="/catalog"
+            to="/catalogo"
           >
             Más productos
           </Link>
