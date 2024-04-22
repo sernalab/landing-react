@@ -1,4 +1,3 @@
-import "./App.css";
 import { Route, Routes } from "react-router-dom";
 
 import Header from "./components/Header";
@@ -17,14 +16,16 @@ function App() {
     <>
       <Header />
       <main>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/catalogo" element={<CatalogoPage />} />
-          <Route path="/details/:title" element={<ProductDetailPage />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/promotions" element={<PromotionsPage />} />
-          <Route path="/videos" element={<VideosPage />} />
-        </Routes>
+        <div className="routes-container">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/catalogo" element={<CatalogoPage />} />
+            <Route path="/details/:title" element={<ProductDetailPage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/promotions" element={<PromotionsPage />} />
+            <Route path="/videos" element={<VideosPage />} />
+          </Routes>
+        </div>
         <Footer />
       </main>
     </>
