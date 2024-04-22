@@ -32,17 +32,13 @@ function Header() {
           <Link className="text-gray-600" to="/promotions">
             Promociones
           </Link>
-          <Link
-            className="text-gray-600"
-            target="_blank"
-            to="https://www.youtube.com/@jomaimport-exports.l.4635/videos"
-          >
+          <Link className="text-gray-600" to="/videos">
             Vídeos
           </Link>
           <Link className="text-gray-600" to="/contact">
             Contacto
           </Link>
-          <Link className="text-gray-600" to="/employment">
+          <Link className="text-gray-600" to="/empleo">
             Empleo
           </Link>
           <Link
