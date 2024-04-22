@@ -21,7 +21,7 @@ function Footer() {
               <nav>
                 <ul>
                   <li>Envío</li>
-                  <li>Aviso legal</li>
+                  <li>Preguntas frequentes</li>
                   <li>Términos y condiciones</li>
                   <li>Sobre nosotros</li>
                   <li>Pago </li>
