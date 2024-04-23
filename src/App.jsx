@@ -1,10 +1,11 @@
-import { Route, Routes } from "react-router-dom";
+import React, { useEffect } from "react";
+import { Route, Routes, useLocation } from "react-router-dom";
+
+import "preline/preline";
 
 import Header from "./components/Header";
 import Home from "./pages/HomePage";
 import Footer from "./components/Footer";
-
-// PAGES
 import CatalogoPage from "./pages/CatalogoPage";
 import ProductDetailPage from "./pages/ProductDetail";
 import AboutPage from "./pages/AboutPage";
@@ -15,6 +16,17 @@ import EmpleoPage from "./pages/EmpleoPage";
 import ContactPage from "./pages/ContactPage";
 
 function App() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (
+      window.HSStaticMethods &&
+      typeof window.HSStaticMethods.autoInit === "function"
+    ) {
+      window.HSStaticMethods.autoInit();
+    }
+  }, [location.pathname]);
+
   return (
     <>
       <Header />
