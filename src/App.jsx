@@ -11,6 +11,7 @@ import AboutPage from "./pages/AboutPage";
 import PromotionsPage from "./pages/PromotionsPage";
 import VideosPage from "./pages/VideosPage";
 import FAQPage from "./pages/FAQPage";
+import EmpleoPage from "./pages/EmpleoPage";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
             <Route path="/promotions" element={<PromotionsPage />} />
             <Route path="/videos" element={<VideosPage />} />
             <Route path="/faq" element={<FAQPage />} />
+            <Route path="/empleo" element={<EmpleoPage />} />
           </Routes>
         </div>
         <Footer />

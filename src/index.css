@@ -88,6 +88,7 @@ button:focus-visible {
 }
 
 .bg-joma-color:hover {
+  color: white;
   background-color: #0087F5;
 }
 
