@@ -12,6 +12,7 @@ import PromotionsPage from "./pages/PromotionsPage";
 import VideosPage from "./pages/VideosPage";
 import FAQPage from "./pages/FAQPage";
 import EmpleoPage from "./pages/EmpleoPage";
+import ContactPage from "./pages/ContactPage";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
             <Route path="/videos" element={<VideosPage />} />
             <Route path="/faq" element={<FAQPage />} />
             <Route path="/empleo" element={<EmpleoPage />} />
+            <Route path="/contact" element={<ContactPage />} />
           </Routes>
         </div>
         <Footer />
