@@ -20,11 +20,10 @@ function Footer() {
               <h5 className="font-bold uppercase text-gray-600">Legal</h5>
               <nav>
                 <ul>
-                  <li>Envío</li>
-                  <li>Preguntas frequentes</li>
-                  <li>Términos y condiciones</li>
                   <li>Sobre nosotros</li>
-                  <li>Pago </li>
+                  <li>Preguntas frequentes</li>
+                  <li>Equipo</li>
+                  <li>Empleo</li>
                 </ul>
               </nav>
             </div>
