@@ -5,22 +5,14 @@ function Footer() {
         <div className="max-w-screen-xl mx-auto p-4 md:p-8 lg:p-12 ">
           <div className="grid grid-cols-4">
             <div>
-              <h5 className="font-bold uppercase text-gray-600">Empresa</h5>
+              <h5 className="font-bold uppercase text-gray-600">
+                Nuestra Empresa
+              </h5>
               <nav>
                 <ul>
+                  <li>Sobre nosotros</li>
                   <li>Envío</li>
-                  <li>Aviso legal</li>
-                  <li>Términos y condiciones</li>
-                  <li>Sobre nosotros</li>
-                  <li>Pago </li>
-                </ul>
-              </nav>
-            </div>
-            <div>
-              <h5 className="font-bold uppercase text-gray-600">Legal</h5>
-              <nav>
-                <ul>
-                  <li>Sobre nosotros</li>
+                  <li>Pago</li>
                   <li>Preguntas frequentes</li>
                   <li>Equipo</li>
                   <li>Empleo</li>
@@ -28,26 +20,11 @@ function Footer() {
               </nav>
             </div>
             <div>
-              <h5 className="font-bold uppercase text-gray-600">Empresa</h5>
+              <h5 className="font-bold uppercase text-gray-600">Legal</h5>
               <nav>
                 <ul>
-                  <li>Envío</li>
                   <li>Aviso legal</li>
                   <li>Términos y condiciones</li>
-                  <li>Sobre nosotros</li>
-                  <li>Pago </li>
-                </ul>
-              </nav>
-            </div>
-            <div>
-              <h5 className="font-bold uppercase text-gray-600">Empresa</h5>
-              <nav>
-                <ul>
-                  <li>Envío</li>
-                  <li>Aviso legal</li>
-                  <li>Términos y condiciones</li>
-                  <li>Sobre nosotros</li>
-                  <li>Pago </li>
                 </ul>
               </nav>
             </div>

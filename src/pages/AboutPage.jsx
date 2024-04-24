@@ -26,7 +26,7 @@ function AboutPage() {
                 </a>
               </div>
             </div>
-            <div class="mt-12 md:mt-0">
+            <div>
               <img
                 src="https://images.unsplash.com/photo-1531973576160-7125cd663d86"
                 alt="About Us Image"
@@ -35,7 +35,7 @@ function AboutPage() {
             </div>
           </div>
           <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8 my-14">
-            <div class="mt-12 md:mt-0">
+            <div>
               <img
                 src="https://images.unsplash.com/photo-1531973576160-7125cd663d86"
                 alt="About Us Image"
@@ -43,7 +43,7 @@ function AboutPage() {
               />
             </div>
             <div class="max-w-lg">
-              <h2 class="text-xl font-extrabold text-gray-600 sm:text-4xl">
+              <h2 class="text-4xl font-extrabold text-gray-600">
                 Comprometidos con la excelencia y la innovación
               </h2>
               <p class="mt-4 text-gray-600 text-lg">
@@ -67,7 +67,7 @@ function AboutPage() {
           </div>
           <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
             <div class="max-w-lg">
-              <h2 class="text-xl font-extrabold text-gray-600 sm:text-4xl">
+              <h2 class="text-4xl font-extrabold text-gray-600">
                 Agilidad y flexibilidad en cada pedido
               </h2>
               <p class="mt-4 text-gray-600 text-lg">
@@ -87,7 +87,7 @@ function AboutPage() {
                 </a>
               </div>
             </div>
-            <div class="mt-12 md:mt-0">
+            <div>
               <img
                 src="https://images.unsplash.com/photo-1531973576160-7125cd663d86"
                 alt="About Us Image"
@@ -96,7 +96,7 @@ function AboutPage() {
             </div>
           </div>
           <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8 my-14">
-            <div class="mt-12 md:mt-0">
+            <div>
               <img
                 src="https://images.unsplash.com/photo-1531973576160-7125cd663d86"
                 alt="About Us Image"
@@ -104,7 +104,7 @@ function AboutPage() {
               />
             </div>
             <div class="max-w-lg">
-              <h2 class="text-xl font-extrabold text-gray-600 sm:text-4xl">
+              <h2 class="text-4xl font-extrabold text-gray-600">
                 Estamos aquí para apoyarte
               </h2>
               <p class="mt-4 text-gray-600 text-lg">
