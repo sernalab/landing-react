@@ -2,10 +2,10 @@ function AboutPage() {
   return (
     <>
       <section className="max-w-screen-xl mx-auto p-4 md:p-8 lg:p-12">
-        <div class="container mx-auto py-16 px-4 sm:px-6 lg:px-8">
+        <div class="container mx-auto py-8 lg:py-12 px-4 sm:px-6 lg:px-8">
           <div class="grid grid-cols-1 md:grid-cols-2 items-center gap-8">
             <div class="max-w-lg">
-              <h2 class="text-xl font-extrabold text-gray-600 sm:text-4xl">
+              <h2 class="font-extrabold text-gray-600 text-4xl">
                 Tu proveedor de confianza en herramientas y recambios para
                 automoción
               </h2>

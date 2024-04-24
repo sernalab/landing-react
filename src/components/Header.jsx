@@ -8,10 +8,14 @@ function Header() {
     setIsOpen(!isOpen);
   };
 
+  const closeMenu = () => {
+    setIsOpen(false);
+  };
+
   return (
-    <header className="max-w-screen-xl mx-auto p-2 md:p-4 lg:py-8 lg:px-12 border-b-2">
-      <nav className="container mx-auto flex flex-wrap justify-between items-center w-full">
-        <Link className="text-gray-600" to="/">
+    <header className="max-w-screen-xl mx-auto border-b-2">
+      <nav className="container mx-auto flex flex-wrap justify-between items-center w-full p-4 lg:p-8">
+        <Link className="text-gray-600" to="/" onClick={closeMenu}>
           <img
             className="h-9"
             src="https://www.joma-tools.com/catalogo/img/logo-1666880563.jpg.pagespeed.ce.71kNUIfzUR.jpg"
@@ -26,24 +30,25 @@ function Header() {
         </div>
 
         <div className="hidden sm:flex flex-grow items-center justify-end space-x-4">
-          <Link className="text-gray-600" to="/about">
+          <Link className="text-gray-600" to="/about" onClick={closeMenu}>
             Sobre Nosotros
           </Link>
-          <Link className="text-gray-600" to="/promotions">
+          <Link className="text-gray-600" to="/promotions" onClick={closeMenu}>
             Promociones
           </Link>
-          <Link className="text-gray-600" to="/videos">
+          <Link className="text-gray-600" to="/videos" onClick={closeMenu}>
             Vídeos
           </Link>
-          <Link className="text-gray-600" to="/contact">
+          <Link className="text-gray-600" to="/contact" onClick={closeMenu}>
             Contacto
           </Link>
-          <Link className="text-gray-600" to="/empleo">
+          <Link className="text-gray-600" to="/empleo" onClick={closeMenu}>
             Empleo
           </Link>
           <Link
             className="bg-joma-color rounded-md p-3 text-white"
             to="/catalogo"
+            onClick={closeMenu}
           >
             Catálogo
           </Link>
@@ -86,28 +91,45 @@ function Header() {
 
         {isOpen && (
           <div className="sm:hidden flex flex-col items-center w-full mt-4">
-            <Link className="text-gray-600 py-2" to="/about">
+            <Link
+              className="text-gray-600 py-2"
+              to="/about"
+              onClick={closeMenu}
+            >
               Sobre Nosotros
             </Link>
-            <Link className="text-gray-600 py-2" to="/promotions">
+            <Link
+              className="text-gray-600 py-2"
+              to="/promotions"
+              onClick={closeMenu}
+            >
               Promociones
             </Link>
             <Link
               className="text-gray-600 py-2"
-              target="_blank"
-              to="https://www.youtube.com/@jomaimport-exports.l.4635/videos"
+              to="/videos"
+              onClick={closeMenu}
             >
               Vídeos
             </Link>
-            <Link className="text-gray-600 py-2" to="/contact">
+            <Link
+              className="text-gray-600 py-2"
+              to="/contact"
+              onClick={closeMenu}
+            >
               Contacto
             </Link>
-            <Link className="text-gray-600 py-2" to="/employment">
+            <Link
+              className="text-gray-600 py-2"
+              to="/empleo"
+              onClick={closeMenu}
+            >
               Empleo
             </Link>
             <Link
               className="bg-joma-color rounded-md p-3 text-white py-2"
               to="/catalogo"
+              onClick={closeMenu}
             >
               Catálogo
             </Link>

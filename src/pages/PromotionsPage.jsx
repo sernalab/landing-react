@@ -2,7 +2,7 @@ function Promotions() {
   return (
     <>
       <section className="max-w-screen-xl mx-auto p-4 md:p-8 lg:p-12  py-12">
-        <div class="container mx-auto px-4">
+        <div class="container mx-auto">
           <h2 class="text-3xl font-bold text-center mb-12 text-gray-600">
             Actualmente en promoción:
           </h2>
@@ -30,7 +30,7 @@ function Promotions() {
                   href="#"
                   class="inline-block mt-4 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition duration-300"
                 >
-                  Comprar Ahora
+                  Contactar
                 </a>
               </div>
             </div>

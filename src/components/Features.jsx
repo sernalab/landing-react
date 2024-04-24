@@ -6,7 +6,7 @@ function Features() {
         <h2 className="text-4xl font-bold text-gray-600 mb-7">
           Amazing <span className="joma-color font-bold">features</span>
         </h2>
-        <p className=" font-medium leading-loose text-gray-600 mb-24">
+        <p className="font-medium leading-loose text-gray-600 mb-10 lg:mb-24">
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nihil
           placeat maiores dolore. Et, enim sunt! Provident reiciendis vitae
           dolorem, temporibus vel enim tenetur explicabo laborum obcaecati
