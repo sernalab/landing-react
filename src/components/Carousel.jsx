@@ -11,7 +11,7 @@ function CarouselComponent() {
         <div className="hs-carousel relative overflow-hidden w-full min-h-[350px] bg-white rounded-lg">
           <div className="hs-carousel-body absolute top-0 bottom-0 start-0 flex flex-nowrap transition-transform duration-700 opacity-0">
             <div className="hs-carousel-slide">
-              <div className="flex justify-center h-full bg-gray-100 p-6">
+              <div className="flex justify-center h-full">
                 <span className="self-center text-4xl transition duration-700">
                   <img
                     src="https://images.unsplash.com/photo-1713008451062-69d80599b486?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -21,7 +21,7 @@ function CarouselComponent() {
               </div>
             </div>
             <div className="hs-carousel-slide">
-              <div className="flex justify-center h-full bg-gray-200 p-6">
+              <div className="flex justify-center h-full">
                 <span className="self-center text-4xl transition duration-700">
                   <img
                     src="https://images.unsplash.com/photo-1713008451062-69d80599b486?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -31,7 +31,7 @@ function CarouselComponent() {
               </div>
             </div>
             <div className="hs-carousel-slide">
-              <div className="flex justify-center h-full bg-gray-300 p-6">
+              <div className="flex justify-center h-full">
                 <span className="self-center text-4xl transition duration-700">
                   <img
                     src="https://images.unsplash.com/photo-1713008451062-69d80599b486?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
