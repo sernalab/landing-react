@@ -13,6 +13,17 @@ const YoutubeCarousel = ({ videos }) => {
       loop: true,
       navigation: true,
       pagination: { type: "bullets", clickable: true },
+      breakpoints: {
+        320: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 2,
+        },
+        1024: {
+          slidesPerView: 3,
+        },
+      },
     };
 
     Object.assign(swiperRef.current, params);
