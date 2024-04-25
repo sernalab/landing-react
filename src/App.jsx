@@ -14,6 +14,8 @@ import VideosPage from "./pages/VideosPage";
 import FAQPage from "./pages/FAQPage";
 import EmpleoPage from "./pages/EmpleoPage";
 import ContactPage from "./pages/ContactPage";
+import EnvioPage from "./pages/FooterPages/EnvioPage";
+import PaymentPage from "./pages/FooterPages/PaymentPage";
 
 function App() {
   const location = useLocation();
@@ -42,6 +44,8 @@ function App() {
             <Route path="/faq" element={<FAQPage />} />
             <Route path="/empleo" element={<EmpleoPage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="/envio" element={<EnvioPage />} />
+            <Route path="/payment" element={<PaymentPage />} />
           </Routes>
         </div>
         <Footer />

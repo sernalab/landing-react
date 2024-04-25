@@ -17,13 +17,24 @@ function Contact() {
                   </p>
                   <div class="mt-8">
                     <p>
-                      <strong>Llámanos:</strong> +34 000 111 222
+                      <strong>Llámanos:</strong> 93 6834840
+                    </p>
+                    <p>
+                      <strong>Fax:</strong> 93 6831869
                     </p>
                     <p>
                       <strong>Email:</strong>{" "}
-                      <a href="mailto:tuemail@ejemplo.com" class="underline">
-                        tuemail@ejemplo.com
+                      <a href="mailto:joma@joma-tools.com" class="underline">
+                        joma@joma-tools.com
                       </a>
+                    </p>
+                    <p>
+                      <strong>Dirección:</strong> C/ Bages, 3 Nave 24 - Pol. Can
+                      Prunera 08759 - Vallirana (Barcelona)
+                    </p>
+                    <p>
+                      <strong>Posición GPS:</strong> Latitud 41º 22’ 22” N
+                      Longitud 1º 54’ 31” E
                     </p>
                   </div>
                 </div>
